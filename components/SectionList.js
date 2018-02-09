@@ -120,7 +120,7 @@ export default class SectionList extends Component {
 
       //if(index){
         return (
-          <View key={index} ref={'sectionItem' + index} pointerEvents="none">
+          <View key={index} ref={'sectionItem' + index} pointerEvents="none" style={this.props.sectionItemStyle}>
             {child}
           </View>
         );
